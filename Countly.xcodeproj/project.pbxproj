@@ -37,6 +37,24 @@
 		3B20A9D32245228700E3D7AE /* CountlyPushNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B20A9AE2245228600E3D7AE /* CountlyPushNotifications.h */; };
 		3B20A9D42245228700E3D7AE /* CountlyPersistency.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9AF2245228600E3D7AE /* CountlyPersistency.m */; };
 		3B20A9D62245228700E3D7AE /* CountlyConsentManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B20A9B12245228700E3D7AE /* CountlyConsentManager.h */; };
+		8D2A8BF524DF2DC800F122BD /* Countly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9942245228400E3D7AE /* Countly.m */; };
+		8D2A8BF624DF2DC800F122BD /* CountlyCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9902245228300E3D7AE /* CountlyCommon.m */; };
+		8D2A8BF724DF2DC800F122BD /* CountlyConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9AC2245228600E3D7AE /* CountlyConfig.m */; };
+		8D2A8BF824DF2DC800F122BD /* CountlyConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9982245228400E3D7AE /* CountlyConnectionManager.m */; };
+		8D2A8BF924DF2DC800F122BD /* CountlyConsentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A99B2245228400E3D7AE /* CountlyConsentManager.m */; };
+		8D2A8BFA24DF2DC800F122BD /* CountlyCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A92245228500E3D7AE /* CountlyCrashReporter.m */; };
+		8D2A8BFB24DF2DC800F122BD /* CountlyDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9AA2245228500E3D7AE /* CountlyDeviceInfo.m */; };
+		8D2A8BFC24DF2DC800F122BD /* CountlyEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9952245228400E3D7AE /* CountlyEvent.m */; };
+		8D2A8BFD24DF2DC800F122BD /* CountlyLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9AD2245228600E3D7AE /* CountlyLocationManager.m */; };
+		8D2A8BFE24DF2DC800F122BD /* CountlyNotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A98E2245228300E3D7AE /* CountlyNotificationService.m */; };
+		8D2A8BFF24DF2DC800F122BD /* CountlyPerformanceMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = D219374A248AC71C00E5798B /* CountlyPerformanceMonitoring.m */; };
+		8D2A8C0024DF2DC800F122BD /* CountlyPersistency.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9AF2245228600E3D7AE /* CountlyPersistency.m */; };
+		8D2A8C0124DF2DC800F122BD /* CountlyPushNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A98F2245228300E3D7AE /* CountlyPushNotifications.m */; };
+		8D2A8C0224DF2DC800F122BD /* CountlyRemoteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A62245228500E3D7AE /* CountlyRemoteConfig.m */; };
+		8D2A8C0324DF2DC800F122BD /* CountlyFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A12245228500E3D7AE /* CountlyFeedback.m */; };
+		8D2A8C0324DF2DC800F122BD /* CountlyFeedbackWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = D249BF5D254D3D180058A6C2 /* CountlyFeedbackWidget.m */; };
+		8D2A8C0424DF2DC800F122BD /* CountlyUserDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A42245228500E3D7AE /* CountlyUserDetails.m */; };
+		8D2A8C0524DF2DC800F122BD /* CountlyViewTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A32245228500E3D7AE /* CountlyViewTracking.m */; };
 		D219374B248AC71C00E5798B /* CountlyPerformanceMonitoring.h in Headers */ = {isa = PBXBuildFile; fileRef = D2193749248AC71C00E5798B /* CountlyPerformanceMonitoring.h */; };
 		D219374C248AC71C00E5798B /* CountlyPerformanceMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = D219374A248AC71C00E5798B /* CountlyPerformanceMonitoring.m */; };
 		D249BF5E254D3D180058A6C2 /* CountlyFeedbackWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = D249BF5C254D3D170058A6C2 /* CountlyFeedbackWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +62,18 @@
 		D2CFEF972545FBE80026B044 /* CountlyFeedbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CFEF952545FBE80026B044 /* CountlyFeedbacks.h */; };
 		D2CFEF982545FBE80026B044 /* CountlyFeedbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CFEF962545FBE80026B044 /* CountlyFeedbacks.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D2A8BEA24DF2D6E00F122BD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3B20A9822245225A00E3D7AE /* Countly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Countly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +108,7 @@
 		3B20A9AE2245228600E3D7AE /* CountlyPushNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyPushNotifications.h; sourceTree = "<group>"; };
 		3B20A9AF2245228600E3D7AE /* CountlyPersistency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountlyPersistency.m; sourceTree = "<group>"; };
 		3B20A9B12245228700E3D7AE /* CountlyConsentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyConsentManager.h; sourceTree = "<group>"; };
+		8D2A8BEC24DF2D6E00F122BD /* libCountlyStatic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCountlyStatic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2193749248AC71C00E5798B /* CountlyPerformanceMonitoring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyPerformanceMonitoring.h; sourceTree = "<group>"; };
 		D219374A248AC71C00E5798B /* CountlyPerformanceMonitoring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountlyPerformanceMonitoring.m; sourceTree = "<group>"; };
 		D249BF5C254D3D170058A6C2 /* CountlyFeedbackWidget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyFeedbackWidget.h; sourceTree = "<group>"; };
@@ -88,6 +119,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3B20A97F2245225A00E3D7AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2A8BE924DF2D6E00F122BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -145,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				3B20A9822245225A00E3D7AE /* Countly.framework */,
+				8D2A8BEC24DF2D6E00F122BD /* libCountlyStatic.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,6 +237,23 @@
 			productReference = 3B20A9822245225A00E3D7AE /* Countly.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		8D2A8BEB24DF2D6E00F122BD /* CountlyStatic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D2A8BF424DF2D6E00F122BD /* Build configuration list for PBXNativeTarget "CountlyStatic" */;
+			buildPhases = (
+				8D2A8BE824DF2D6E00F122BD /* Sources */,
+				8D2A8BE924DF2D6E00F122BD /* Frameworks */,
+				8D2A8BEA24DF2D6E00F122BD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountlyStatic;
+			productName = CountlyStatic;
+			productReference = 8D2A8BEC24DF2D6E00F122BD /* libCountlyStatic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,6 +265,9 @@
 				TargetAttributes = {
 					3B20A9812245225A00E3D7AE = {
 						CreatedOnToolsVersion = 10.1;
+					};
+					8D2A8BEB24DF2D6E00F122BD = {
+						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
@@ -226,6 +285,7 @@
 			projectRoot = "";
 			targets = (
 				3B20A9812245225A00E3D7AE /* Countly */,
+				8D2A8BEB24DF2D6E00F122BD /* CountlyStatic */,
 			);
 		};
 /* End PBXProject section */
@@ -263,6 +323,31 @@
 				3B20A9D12245228700E3D7AE /* CountlyConfig.m in Sources */,
 				3B20A9C82245228700E3D7AE /* CountlyViewTracking.m in Sources */,
 				3B20A9D22245228700E3D7AE /* CountlyLocationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2A8BE824DF2D6E00F122BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D2A8BF524DF2DC800F122BD /* Countly.m in Sources */,
+				8D2A8BF624DF2DC800F122BD /* CountlyCommon.m in Sources */,
+				8D2A8BF724DF2DC800F122BD /* CountlyConfig.m in Sources */,
+				8D2A8BF824DF2DC800F122BD /* CountlyConnectionManager.m in Sources */,
+				8D2A8BF924DF2DC800F122BD /* CountlyConsentManager.m in Sources */,
+				8D2A8BFA24DF2DC800F122BD /* CountlyCrashReporter.m in Sources */,
+				8D2A8BFB24DF2DC800F122BD /* CountlyDeviceInfo.m in Sources */,
+				8D2A8BFC24DF2DC800F122BD /* CountlyEvent.m in Sources */,
+				8D2A8BFD24DF2DC800F122BD /* CountlyLocationManager.m in Sources */,
+				8D2A8BFE24DF2DC800F122BD /* CountlyNotificationService.m in Sources */,
+				8D2A8BFF24DF2DC800F122BD /* CountlyPerformanceMonitoring.m in Sources */,
+				8D2A8C0024DF2DC800F122BD /* CountlyPersistency.m in Sources */,
+				8D2A8C0124DF2DC800F122BD /* CountlyPushNotifications.m in Sources */,
+				8D2A8C0224DF2DC800F122BD /* CountlyRemoteConfig.m in Sources */,
+				8D2A8C0324DF2DC800F122BD /* CountlyFeedback.m in Sources */,
+				8D2A8C0324DF2DC800F122BD /* CountlyFeedbackWidget.m in Sources */,
+				8D2A8C0424DF2DC800F122BD /* CountlyUserDetails.m in Sources */,
+				8D2A8C0524DF2DC800F122BD /* CountlyViewTracking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +407,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -378,6 +464,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -400,6 +487,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +515,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,6 +525,34 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ly.count.CountlyiOSSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D2A8BF224DF2D6E00F122BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 466Q7246TQ;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D2A8BF324DF2D6E00F122BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 466Q7246TQ;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +575,15 @@
 			buildConfigurations = (
 				3B20A98B2245225A00E3D7AE /* Debug */,
 				3B20A98C2245225A00E3D7AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D2A8BF424DF2D6E00F122BD /* Build configuration list for PBXNativeTarget "CountlyStatic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D2A8BF224DF2D6E00F122BD /* Debug */,
+				8D2A8BF324DF2D6E00F122BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
