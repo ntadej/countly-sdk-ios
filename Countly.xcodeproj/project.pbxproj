@@ -51,10 +51,10 @@
 		8D2A8C0024DF2DC800F122BD /* CountlyPersistency.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9AF2245228600E3D7AE /* CountlyPersistency.m */; };
 		8D2A8C0124DF2DC800F122BD /* CountlyPushNotifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A98F2245228300E3D7AE /* CountlyPushNotifications.m */; };
 		8D2A8C0224DF2DC800F122BD /* CountlyRemoteConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A62245228500E3D7AE /* CountlyRemoteConfig.m */; };
-		8D2A8C0324DF2DC800F122BD /* CountlyFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A12245228500E3D7AE /* CountlyFeedback.m */; };
-		8D2A8C0324DF2DC800F122BD /* CountlyFeedbackWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = D249BF5D254D3D180058A6C2 /* CountlyFeedbackWidget.m */; };
 		8D2A8C0424DF2DC800F122BD /* CountlyUserDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A42245228500E3D7AE /* CountlyUserDetails.m */; };
 		8D2A8C0524DF2DC800F122BD /* CountlyViewTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B20A9A32245228500E3D7AE /* CountlyViewTracking.m */; };
+		8DC7C22425978ABD00E3B526 /* CountlyFeedbacks.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CFEF962545FBE80026B044 /* CountlyFeedbacks.m */; };
+		8DC7C22725978B8200E3B526 /* CountlyFeedbackWidget.m in Sources */ = {isa = PBXBuildFile; fileRef = D249BF5D254D3D180058A6C2 /* CountlyFeedbackWidget.m */; };
 		D219374B248AC71C00E5798B /* CountlyPerformanceMonitoring.h in Headers */ = {isa = PBXBuildFile; fileRef = D2193749248AC71C00E5798B /* CountlyPerformanceMonitoring.h */; };
 		D219374C248AC71C00E5798B /* CountlyPerformanceMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = D219374A248AC71C00E5798B /* CountlyPerformanceMonitoring.m */; };
 		D249BF5E254D3D180058A6C2 /* CountlyFeedbackWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = D249BF5C254D3D170058A6C2 /* CountlyFeedbackWidget.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -330,6 +330,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DC7C22725978B8200E3B526 /* CountlyFeedbackWidget.m in Sources */,
+				8DC7C22425978ABD00E3B526 /* CountlyFeedbacks.m in Sources */,
 				8D2A8BF524DF2DC800F122BD /* Countly.m in Sources */,
 				8D2A8BF624DF2DC800F122BD /* CountlyCommon.m in Sources */,
 				8D2A8BF724DF2DC800F122BD /* CountlyConfig.m in Sources */,
@@ -344,8 +346,6 @@
 				8D2A8C0024DF2DC800F122BD /* CountlyPersistency.m in Sources */,
 				8D2A8C0124DF2DC800F122BD /* CountlyPushNotifications.m in Sources */,
 				8D2A8C0224DF2DC800F122BD /* CountlyRemoteConfig.m in Sources */,
-				8D2A8C0324DF2DC800F122BD /* CountlyFeedback.m in Sources */,
-				8D2A8C0324DF2DC800F122BD /* CountlyFeedbackWidget.m in Sources */,
 				8D2A8C0424DF2DC800F122BD /* CountlyUserDetails.m in Sources */,
 				8D2A8C0524DF2DC800F122BD /* CountlyViewTracking.m in Sources */,
 			);
@@ -487,12 +487,12 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 20.11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.count.CountlyiOSSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -515,12 +515,12 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 20.11.1;
 				PRODUCT_BUNDLE_IDENTIFIER = ly.count.CountlyiOSSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
